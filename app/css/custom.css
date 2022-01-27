@@ -316,7 +316,7 @@ footer {
 /*////////////////////////////////// responsive ///////////////////////////////////*/
 
 /* ---------mobil--------  */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   /*----------- header start -----------*/
   .navbar__menu,
   .navbar__left ul li {
@@ -400,6 +400,10 @@ footer {
   /*----------- footer-----------*/
   .footer__store {
     margin-top: 32px;
+  }
+  .row {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
